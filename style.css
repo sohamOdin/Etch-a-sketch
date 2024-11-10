@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.colSketch{
+    border: 1px solid black;
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+#container{
+    margin-left: 335px;
+}
+
+.colSketch:hover{
+    background-color: red;
+}
