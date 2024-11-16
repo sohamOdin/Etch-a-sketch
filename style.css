@@ -1,19 +1,38 @@
+body{
+    background-color: darkgray;
+}
+
 h1{
     text-align: center;
 }
 
-.colSketch{
-    border: 1px solid black;
-    min-width: 20px;
-    min-height: 20px;
-    margin-right: 2px;
-    display: inline-block;
-}
-
 #container{
-    margin-left: 335px;
+    height:700px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.colSketch:hover{
-    background-color: red;
+#flex{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+#modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+#row{
+    display: flex;
+    flex-grow: 1;
+}
+
+#column{
+    display: flex;
+    flex-grow: 1;
 }
